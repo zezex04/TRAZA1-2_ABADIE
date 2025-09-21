@@ -1,4 +1,4 @@
-package Entidades;
+package Entidades.Empresa;
 
 import Repositorios.InMemoryRepository;
 import lombok.Builder;

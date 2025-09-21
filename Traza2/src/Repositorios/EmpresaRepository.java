@@ -4,7 +4,7 @@
 
 package Repositorios;
 
-import Entidades.Empresa;
+import Entidades.Empresa.Empresa;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package Entidades;
+package Entidades.Empresa;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;

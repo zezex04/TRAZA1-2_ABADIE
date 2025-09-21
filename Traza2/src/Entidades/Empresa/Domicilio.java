@@ -1,6 +1,5 @@
-package Entidades;
+package Entidades.Empresa;
 
-import lombok.*;
 import lombok.Data;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;

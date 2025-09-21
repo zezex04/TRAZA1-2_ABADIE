@@ -4,7 +4,7 @@ package Repositorios;
 en código funcional que maneja datos en memoria.*/
 
 
-import Entidades.Empresa;
+import Entidades.Empresa.Empresa;
 import java.util.*;
 
 public class InMemoryEmpresaRepository extends InMemoryRepository<Empresa> implements EmpresaRepository {
