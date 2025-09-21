@@ -1,5 +1,11 @@
 import Entidades.Articulos.*;
-import Entidades.Empresa.*;
+import Entidades.Empresa.Empresa;
+import Entidades.Empresa.Pais;
+import Entidades.Empresa.Provincia;
+import Entidades.Empresa.Localidad;
+import Entidades.Empresa.Domicilio;
+import Entidades.Empresa.Sucursal;
+import Entidades.Empresa.SucursalArticulo;
 import Repositorios.*;
 
 import java.time.LocalTime;

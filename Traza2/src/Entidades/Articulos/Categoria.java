@@ -1,11 +1,12 @@
 package Entidades.Articulos;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 @Data
-@Getter
-@Setter
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor

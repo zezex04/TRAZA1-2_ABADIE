@@ -1,17 +1,15 @@
 package Entidades.Empresa;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.SuperBuilder;
-
 import java.time.LocalTime;
 import java.util.HashSet;
 import java.util.Set;
 
-@SuperBuilder
 @Data
-@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+@SuperBuilder
 public class Sucursal {
     private Long id;
     private String nombre;
@@ -22,8 +20,4 @@ public class Sucursal {
 
     @Builder.Default
     private Set<SucursalArticulo> sucursalArticulos = new HashSet<>();
-
-    public Set<SucursalArticulo> getSucursalArticulos() {
-        return sucursalArticulos;
-    }
 }

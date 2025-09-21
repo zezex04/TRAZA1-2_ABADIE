@@ -11,7 +11,6 @@ import java.util.Set;
 @SuperBuilder
 @ToString(exclude = "provincias")
 @EqualsAndHashCode(exclude = "provincias")
-
 public class Pais {
     private Long id;
     private String nombre;
